@@ -26,17 +26,9 @@ $('#Form').on('submit', function() {
 });
 
 $('#AboutButton').click(function() {
-	$('#AboutOverlay').fadeIn();
-});
-
-$('#AboutOverlay').click(function() {
-	$('#AboutOverlay').fadeOut();
-});
-
-$('#TextContainer').click(function(e) {
-	e.stopPropagation();
+	$('#MainText').get()[0].scrollIntoView();
 });
 
 $('#MailingListBack').click(function() {
-	$('#AboutOverlay').fadeOut();
+	window.scrollTo(0, 0);
 });
