@@ -24,3 +24,19 @@ $('#Form').on('submit', function() {
 	});
 	return false;
 });
+
+$('#AboutButton').click(function() {
+	$('#AboutOverlay').fadeIn();
+});
+
+$('#AboutOverlay').click(function() {
+	$('#AboutOverlay').fadeOut();
+});
+
+$('#TextContainer').click(function(e) {
+	e.stopPropagation();
+});
+
+$('#MailingListBack').click(function() {
+	$('#AboutOverlay').fadeOut();
+});
