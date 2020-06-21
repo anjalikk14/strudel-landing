@@ -1,7 +1,7 @@
 $('#Form').on('submit', function() {
 	let message = $('#EmailInput').val();
 	let request = $.ajax({
-		url: 'https://formspree.io/myynekpl', 
+		url: 'https://formspree.io/myynekpl',
 		method: 'POST',
 		data: {message: message},
 		dataType: 'json'
