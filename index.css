@@ -49,7 +49,7 @@ body {
 
 #SignUp {
 	height: 400px;
-	max-width: 310px;
+	max-width: 250px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
